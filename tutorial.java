@@ -3,7 +3,7 @@
 //ultima prueba
 
 //alejo
-public class tutotorial {
+public class tutorial {
 
     public static void main(String[] args){
         Objeto objeto = new Objeto("piter");
