@@ -54,10 +54,11 @@ public class User {
     public void validated_name(){
 
         if (this.name.isEmpty()) {
-            throw new IllegalArgumentException("el nombre no puede estra vacio");
+            throw new IllegalArgumentException("el nombre no puede estar vacio");
         }
 
         for (int i = 0; i< this.name.length(); i++){
+
             char c = this.name.charAt(i);
 
             if (!Character.isLetter(c)) {
@@ -66,7 +67,7 @@ public class User {
         }
 
         if(this.name.length() < 3){
-            throw new IllegalArgumentException("el nombre deben de tener un minimo de 3 caracteres");
+            throw new IllegalArgumentException("el nombre debe de tener un minimo de 3 caracteres");
         }
         if(this.name.length() > 20){
             throw new IllegalArgumentException("el nombre puede tener un maximo de 20 caracteres ");
@@ -79,6 +80,7 @@ public class User {
     public void validated_lastName(){
 
         for (int j = 0; j< this.lastName.length(); j++){
+
             char a = this.lastName.charAt(j);
 
             if (!Character.isLetter(a)) {
@@ -111,7 +113,7 @@ public class User {
             throw new IllegalArgumentException("el nombre de usuario debe de tener un minimo de 3 caracteres");
         }
         if(this.username.length() > 30){
-            throw new IllegalArgumentException("el nombre de usuario debe de tener menos de 15 caracteres");
+            throw new IllegalArgumentException("el nombre de usuario debe de tener menos de 30 caracteres");
         }
 
         
@@ -120,6 +122,7 @@ public class User {
 //validated email son las validaciones de el correo de el usuario
 
     public void validated_email() {
+
         if ( this.email.isEmpty()) {
             throw new IllegalArgumentException("todos los campos deben ser llenados");
         }
@@ -154,14 +157,15 @@ public class User {
         }
 
         if (this.password.length() < 8) {
-            throw new IllegalArgumentException("la contraseña debe tener como mínimo 8 caracteres");
+                throw new IllegalArgumentException("la contraseña debe tener como mínimo 8 caracteres");
         }
 
         if ( this.password.isEmpty()) {
-            throw new IllegalArgumentException("todos los campos deben ser llenados");
+                throw new IllegalArgumentException("todos los campos deben ser llenados");
         }
 
         for (int j = 0; j< this.password.length(); j++){
+
             char a = this.password.charAt(j);
 
             if (Character.isSpaceChar(a)) {
