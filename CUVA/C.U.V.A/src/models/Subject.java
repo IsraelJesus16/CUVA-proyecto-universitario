@@ -23,7 +23,7 @@ public class Subject {
     
     //setters
     public void setCode(String code){this.code = code;}
-    public void setsemester(int semester){this.semester = semester;}
+    public void setSemester(int semester){this.semester = semester;}
     public void setUnit_credit(int unit_credit){this.unit_credit = unit_credit;}
     public void setName(String name){this.name = name;}
     

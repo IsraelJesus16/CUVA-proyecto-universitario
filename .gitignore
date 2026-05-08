@@ -1,3 +1,6 @@
 **/.vscode/
 bin/
 *.class
+/nbproject/private/
+/build/
+/dist/
