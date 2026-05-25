@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * JavaFX App
+ * JavaFX App codigo de prueba para ver si funciona
  */
 public class App extends Application {
 
