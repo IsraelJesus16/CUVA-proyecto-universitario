@@ -33,7 +33,7 @@ public class Data_Manipulator {
             pstmt.setString(5, user.getPassword());
             pstmt.setString(6, user.getPost());
 
-            // Ejecutar la inserción
+            // El "pstmt"Ejecutar la inserción
             int filasInsertadas = pstmt.executeUpdate();
             System.out.println("Filas insertadas: " + filasInsertadas);
 
@@ -83,25 +83,6 @@ public class Data_Manipulator {
             e.printStackTrace();
         }
     }
-
-    public void InsertTableReprobated(ConexionMySQL CMySQL,Reprobated rep){
-
-        String sql = "INSERT INTO Reprobated (IDStudent,CodeSubject,NameStudent,getNameSubject) VALUES (?,?,?,?)";
-
-        try (Connection conn = DriverManager.getConnection(CMySQL.geturl(), CMySQL.getusername(), CMySQL.getpassword());
-             PreparedStatement pstmt = conn.prepareStatement(sql)) {
-
-            pstmt.setString(1,rep.getIDStudent());
-            pstmt.setString(2,rep.getCodeSubject());
-            pstmt.setString(3,rep.getNameStudent());
-            pstmt.setString(4,rep.getNameSubject());
-
-            int filasInsertadas = pstmt.executeUpdate();
-            System.out.println("Filas insertadas: " + filasInsertadas);
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }
     
