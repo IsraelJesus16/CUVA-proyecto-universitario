@@ -34,7 +34,7 @@
                </font>
             </Label>
             <Separator prefHeight="0.0" prefWidth="252.0" />
-            <Button id="ButtonCerrarSesion" maxHeight="200.0" maxWidth="350.0" minHeight="450.0" minWidth="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="251.0" style="-fx-background-color: #00a3e0;" styleClass="cerrarSesion" stylesheets="@Ventana.css" text="Cerrar Sesion" />
+            <Button maxHeight="200.0" maxWidth="350.0" minHeight="450.0" minWidth="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="251.0" style="-fx-background-color: #00a3e0;" styleClass="cerrarSesion" stylesheets="@Ventana.css" text="Cerrar Sesion" />
          </children>
          <padding>
             <Insets bottom="20.0" left="15.0" right="15.0" top="20.0" />
