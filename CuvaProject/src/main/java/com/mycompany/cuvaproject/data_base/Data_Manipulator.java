@@ -7,10 +7,10 @@ import java.sql.ResultSet; // maneja los resultados de las consultas SQL
 import java.sql.SQLException; // maneja los errores relacionados con SQL
 
 // estos import se pueden borrar despues en el proyecto final
-import models.User;
-import models.Student;
-import models.Subject;
-import models.Reprobated;
+import com.mycompany.cuvaproject.models.User;
+import com.mycompany.cuvaproject.models.Student;
+import com.mycompany.cuvaproject.models.Subject;
+import com.mycompany.cuvaproject.models.Reprobated;
 
 public class Data_Manipulator {
 
