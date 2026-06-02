@@ -38,8 +38,7 @@
     <items>
         <FXCollections fx:factory="observableArrayList">
             <String fx:value="Administrador" />
-            <String fx:value="Cliente" />
-            <String fx:value="Invitado" />
+            <String fx:value="Asistente" />
         </FXCollections>
     </items>
 </ComboBox>
