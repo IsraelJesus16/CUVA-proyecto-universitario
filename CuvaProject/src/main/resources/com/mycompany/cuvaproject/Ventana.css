@@ -1,0 +1,24 @@
+.button {
+    /* Tus colores y fuentes actuales */
+    -fx-background-color: #002d72; 
+    -fx-text-fill: white; 
+    -fx-font-weight: bold; 
+    -fx-font-size: 14;
+    
+    /* Los nuevos efectos visuales (Bordes y Sombra) */
+    -fx-background-radius: 10; 
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 5, 0, 0, 2);
+}
+
+.fondo_imagen { 
+    -fx-background-image: url("fondo.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+/* Efecto para los botones principales oscuros */
+.cerrarSesion:hover {
+    -fx-background-color: #0044a7; /* Un azul un poco más claro al apuntar */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,68,167,0.4), 10, 0, 0, 4);
+}
