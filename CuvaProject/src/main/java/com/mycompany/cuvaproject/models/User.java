@@ -9,7 +9,7 @@ public class User {
     private String post;
 
     // constructor
-
+    // comentario de prueba
     public User(String name, String lastName, String username, String password, String email, String post) {
         this.name = name;
         this.lastName = lastName;
